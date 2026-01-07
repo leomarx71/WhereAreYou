@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- NÃO APAGAR -->
+    <!-- APP Dev and Release Key : ga0RGNYHvNM5d0SLGQfpQWAPGJ8= | Password: simov -->
+    <!--
+    Certificate fingerprints:
+         MD5:  26:55:BB:99:D2:AE:63:09:E4:60:C3:A3:46:4A:DD:87
+         SHA1: 93:DB:93:6F:F3:16:E5:31:EE:6A:10:BF:E1:B0:FD:E1:60:CB:1C:78
+         SHA256: B3:52:8C:06:9E:5E:BF:FB:97:05:E0:47:49:C5:AC:BD:D7:94:87:68:B0:DA:12:7B:50:96:76:B1:53:32:3E:68
+         Signature algorithm name: SHA1withRSA
+         Default Password: android
+         Version: 1
+     -->
+
+    <!-- External Libraries Strings -->
+    <string name="facebook_app_id">1530210773662044</string>
+
+    <!-- General Strings -->
+    <string name="app_name">Where Are You</string>
+    <string name="app_share">Select one contact</string>
+
+    <!-- Dialog Strings -->
+    <string name="exit_app_confirmation">Exit the application?</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_register_user">Register</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="action_settings">Logout</string>
+
+    <string name="presentation_notification_title_template">Presentation: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="presentation_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+    <string name="notif_yes">Yes</string>
+    <string name="notif_no">No</string>
+    <string name="notif_ignore">Ignore</string>
+
+    <string name="permission_required_toast">Permission is required to use GPS</string>
+    <string name="location_permission_denied">Permission denied to use GPS</string>
+    <string name="permission_rationale_location">WAY needs your permission to get your location</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Maps</item>
+        <item>Chat</item>
+        <item>Friends</item>
+        <item>WhitList</item>
+        <item>BlackList</item>
+        <item>Share</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+</resources>
