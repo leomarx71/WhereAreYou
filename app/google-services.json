@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "588205027476",
+    "firebase_url": "https://where-are-you-5f7f7.firebaseio.com",
+    "project_id": "where-are-you-5f7f7",
+    "storage_bucket": "where-are-you-5f7f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588205027476:android:95a325e2360d7c8a",
+        "android_client_info": {
+          "package_name": "com.leomarx.whereareyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588205027476-b3vm4jg991vduumh84n20k4dffdo7cm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leomarx.whereareyou",
+            "certificate_hash": "48F79F104CEAD4D6CEF61314FBE13853DBFC364B"
+          }
+        },
+        {
+          "client_id": "588205027476-6l94jooe74t3b9hf7h4nahhoqi4ug5fp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leomarx.whereareyou",
+            "certificate_hash": "93DB936FF316E531EE6A10BFE1B0FDE160CB1C78"
+          }
+        },
+        {
+          "client_id": "588205027476-vbl1bp55058f3m5fvjl7crd17572hnfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-6SORyD6d_v6kbZrp9uvf3nG28pDNlvU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588205027476-vbl1bp55058f3m5fvjl7crd17572hnfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

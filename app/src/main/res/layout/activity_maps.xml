@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="top|end">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnShowLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:src="@android:drawable/ic_menu_mylocation"
+            app:backgroundTint="?android:attr/textColorLink"
+            app:fabSize="mini" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|end">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnGetDirections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:src="@android:drawable/ic_menu_directions"
+        app:backgroundTint="?android:attr/textColorLink"
+        app:fabSize="mini" />
+    </LinearLayout>
+
+</FrameLayout>
+
+
+
+
